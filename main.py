@@ -21,7 +21,7 @@ X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=
 batch_size = 32
 learning_rate = 0.0001
 epochs = 50
-training_steps = 50000
+training_steps = 75000
 display_step = 100
 
 # load train data into a tf pipeline
