@@ -2,7 +2,7 @@
 This repository consits of a simple implementation of a generative adversarial network (GAN) using Tensorflow on the MNIST handwriting data. The GAN constists of two neural network in competition with each other – one trying to generate samples that are as close to the real samples provided (the generator) and the other trying to distinguish the real samples from the generated samples as well as possible (the discriminator). 
 
 # Running the Code
-Simply place `train.csv` in the Python working directory and run `main.py`. By default, the network will train for 50,000 steps, so it may take a while.
+Simply place `train.csv` in the Python working directory and run `main.py`. By default, the network will train for 75,000 steps, so it may take a while.
 
 # Examples
 Here are 16 examples of real digits drawn randomly from the dataset
